@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COSCUP &amp; Community</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="COSCUP and the Communities">
+    <link rel="shortcut icon" href="media/img/favicon.png">
+    <link rel="stylesheet" href="src/vendor/fonts/Fira-Sans/font.css">
+    <link rel="stylesheet" href="src/vendor/fonts/Ubuntu/font.css">
+    <link rel="stylesheet" href="src/vendor/css/reveal.css">
+    <link rel="stylesheet" href="src/vendor/css/theme/black.css">
+    <link rel="stylesheet" href="src/lib/highlight.css">
+    <script src="src/lib/print-and-pdf-export.js"></script>
+    <style>
+
+      .reveal small { /* 無法理解為什麼 small 本來居然要上移*/
+          vertical-align: middle;
+          margin-top: -0.5em;
+      }
+      
+      div.hellocard {
+          background: darkred;
+          border-radius: .5em;
+          padding: 0 0 1em;
+          transform: rotate(3deg);
+          box-shadow: .2em .1em .5em rgba(0,0,0,.7);
+      }
+      div.hellocard h1 {
+          font-size: 4em;
+          margin-bottom: -.2em
+      }
+      div.hellocard h2 {
+          background: #ddd;
+          color: #000;
+          padding: 1em;
+      }
+      
+      .imgs4 {
+          display: grid;
+          grid-template-columns: repeat(4, auto);
+      }
+      
+      img {
+          border: 0 !important;
+          background: transparent !important;
+          box-shadow: none !important;
+      }
+      
+      .column2 {
+          column-count: 2;
+          column-gap: 1em;
+      }
+      
+      .reveal em {
+          color: yellow;
+          font-style: normal;
+      }
+      
+      </style>
+  </head>
+
+  <body lang="zh-TW">
+
+    <div class="reveal" style="background-image: url(media/img/background.jpg); background-size: cover;">
+      <div class="slides">
+        <section
+          data-markdown="content.md"
+          data-separator="\r?\n---\r?\n"
+          data-separator-vertical="\r?\n----\r?\n"
+          data-separator-notes="NOTE:"></section>
+      </div>
+    </div>
+    <script src="src/vendor/lib/js/head.min.js"></script>
+    <script src="src/vendor/js/reveal.js"></script>
+    <script src="src/main.js"></script>
+    <script async src="src/codepen.js"></script>
+  </body>
+</html>
