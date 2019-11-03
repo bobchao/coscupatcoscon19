@@ -730,6 +730,16 @@ So useful, 大家真的進來其實很快會感受到, 學一些系統規劃、�
 
 ---
 
-![](media/img/coscup.png)
+<img src="media/img/coscup.png" width="400"> 
 
 Aug, 2020
+
+<br>
+
+![](media/img/191003134616.png)
+
+
+---
+
+* https://www.facebook.com/coscup
+* https://twitter.com/coscup
